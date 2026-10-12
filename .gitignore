@@ -1,0 +1,40 @@
+# ROS 2 workspace build outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# ROS bags and recorded data
+*.bag
+*.db3
+*.mcap
+
+# Generated simulation outputs
+*.world.bak
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Large exported or generated files
+# Store large artifacts in approved external storage.
